@@ -1,0 +1,34 @@
+# Sprint 1:
+* [X] Have an accepted Project Idea (Exercise 6). 
+
+* [X] Accept the invitation and join the KSU-IS GitHub organization.
+
+* [X] Associate with ownership of a code repository in our Github organization.
+
+* [X] Create and make some edits in the README.md file. 
+
+* [X] Have Explore at least one existing Python code related to the project, run it, and evaluate it.
+
+* [X] Create and submit updates to the projectroadmap.mp file.
+
+# Sprint 2:
+* [ ] Make small updates with comments in the repository on the Github desktop. 
+
+* [ ] Do at least 6 code updates with clear and specific comments explaining the updates. 
+
+* [ ] Track progress with checkboxes in the projectroadmap.md file. 
+
+* [ ] Review for any updates or tasks needed. 
+
+# Sprint 3:
+* [ ] Continue coding, refining, and testing the program.
+      
+* [ ]   Add more scope if necessary.
+
+* [ ] Update projecroadmap.md file if any changes occur. 
+
+* [ ] Create one PowerPoint slide showing the Project Idea. 
+
+* [ ] Upload presentation on D2L. 
+
+* [ ] Ensure a copy on the Github repository for future coders. 
