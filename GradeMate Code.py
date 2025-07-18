@@ -17,7 +17,7 @@ import statistics  # Built-in function to calculate mathematical statistics of n
         else:
             print("Your score for the class is currently a F")
             return "F"
-grades_dict = {}  # Empty dictionary created over here to store the grades for mutiple assignments and is useful as a quality of life update.
+grades_dict = {}  # Dictionary to store average scores for each subject.
 subjects = []
 # Ask user how many classes they want to calculate grades for
 while True:
