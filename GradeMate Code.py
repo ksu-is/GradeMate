@@ -47,8 +47,8 @@ for subject in subjects:
             print("Please enter a number between the ranges of 0-100.")
     
     # Calculate average score for the current subject. 
-    grades_score = statistics.mean(grades)
-    print(f"Average score for {subject}: {grades_score}") # Subject and grade_score is replaced with the subject and grades_score variable. 
+   grades_score = round(statistics.mean(grades), 2)
+   print(f"Average score for {subject}: {grades_score}") # Subject and grade_score is replaced with the subject and grades_score variable. 
 
     # Store grades in the dictionary which helps when sorting grades to each specfic class.
     grades_dict[subject] = grades_score
