@@ -12,13 +12,13 @@
 * [X] Create and submit updates to the projectroadmap.mp file.
 
 # Sprint 2:
-* [ ] Make small updates with comments in the repository on the Github desktop. 
+* [X] Make small updates with comments in the repository on the Github desktop. 
 
-* [ ] Do at least 6 code updates with clear and specific comments explaining the updates. 
+* [X] Do at least 6 code updates with clear and specific comments explaining the updates. 
 
-* [ ] Track progress with checkboxes in the projectroadmap.md file. 
+* [X] Track progress with checkboxes in the projectroadmap.md file. 
 
-* [ ] Review for any updates or tasks needed. 
+* [X] Review for any updates or tasks needed. 
 
 # Sprint 3:
 * [ ] Continue coding, refining, and testing the program.
