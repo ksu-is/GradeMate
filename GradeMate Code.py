@@ -1,6 +1,25 @@
+            
 import statistics  # Built-in function to calculate mathematical statistics of numeric data, helpful in finding the average.
+ # Calculate letter grade and the final for the class.
+    def letter_grade(grades_score):  # This is where the grade is scored on a letter basis, this helpful in displaying different facet of information.
+        if grades_score >= 90:
+            print("Your score for the class is currently an A")
+            return "A"
+        elif grades_score >= 80:
+            print("Your score for the class is currently a B")
+            return "B"
+        elif grades_score >= 70:
+            print("Your score for the class is currently a C")
+            return "C"
+        elif grades_score >= 60:
+            print("Your score for the class is currently a D")
+            return "D"
+        else:
+            print("Your score for the class is currently a F")
+            return "F"
 grades_dict = {}  # Empty dictionary created over here to store the grades for mutiple assignments and is useful as a quality of life update.
 subjects = []
+# Ask user how many classes they want to calculate grades for
 number_of_classes = int(input("How many classes are you trying to calculate your grade in? "))
 
 for i in range(number_of_classes):  # This is used to loop over the number of classes to input subject names as well as more effecient rather than hard coding it.
@@ -25,23 +44,7 @@ for subject in subjects:
     # Store grades in the dictionary which helps when sorting grades to each specfic class.
     grades_dict[subject] = grades_score
 
-    # Calculate letter grade and the final for the class.
-    def letter_grade(grades_score):  # This is where the grade is scored on a letter basis, this helpful in displaying different facet of information.
-        if grades_score >= 90:
-            print("Your score for the class is currently an A")
-            return "A"
-        elif grades_score >= 80:
-            print("Your score for the class is currently a B")
-            return "B"
-        elif grades_score >= 70:
-            print("Your score for the class is currently a C")
-            return "C"
-        elif grades_score >= 60:
-            print("Your score for the class is currently a D")
-            return "D"
-        else:
-            print("Your score for the class is currently a F")
-            return "F"
+ 
 
     final_grade = letter_grade(grades_score)
 
