@@ -20,7 +20,16 @@ import statistics  # Built-in function to calculate mathematical statistics of n
 grades_dict = {}  # Empty dictionary created over here to store the grades for mutiple assignments and is useful as a quality of life update.
 subjects = []
 # Ask user how many classes they want to calculate grades for
-number_of_classes = int(input("How many classes are you trying to calculate your grade in? "))
+while True:
+    try:
+        number_of_classes = int(input("How many classes are you trying to calculate your grade in? "))
+        if number_of_classes > 0:
+            break
+        else:
+            print("Enter a positive number.")
+    except ValueError:
+        print("Please enter a valid integer.")
+
 
 for i in range(number_of_classes):  # This is used to loop over the number of classes to input subject names as well as more effecient rather than hard coding it.
     subject = input(f"Enter the name of class {i+1}: ")
