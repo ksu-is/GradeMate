@@ -61,5 +61,13 @@ for subject in subjects:
 print("\nSummary of all subjects and grades:")
 for subject, avg_score in grades_dict.items():
     final_grade = letter_grade(avg_score)
-    print(f"{subject}: Average Score: {avg_score}, Final Grade: {final_grade}") # Pulls out each coresponding variable to use in a string.
+    print(f"{subject}: Average Score: {round(avg_score, 2)} | Final Grade: {final_grade}")
+
+with open("grade_summary.txt", "w") as f:
+    for subject, avg_score in grades_dict.items():
+        final = letter_grade(avg_score)
+        f.write(f"{subject}: Average Score: {round(avg_score, 2)} | Final Grade: {final}\n")
+
+print("Summary saved to grade_summary.txt")
+
 
