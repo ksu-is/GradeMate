@@ -21,14 +21,14 @@
 * [X] Review for any updates or tasks needed. 
 
 # Sprint 3:
-* [ ] Continue coding, refining, and testing the program.
+* [X] Continue coding, refining, and testing the program.
       
-* [ ]   Add more scope if necessary.
+* [X]   Add more scope if necessary.
 
-* [ ] Update projecroadmap.md file if any changes occur. 
+* [X] Update projecroadmap.md file if any changes occur. 
 
-* [ ] Create one PowerPoint slide showing the Project Idea. 
+* [X] Create one PowerPoint slide showing the Project Idea. 
 
-* [ ] Upload presentation on D2L. 
+* [X] Upload presentation on D2L. 
 
-* [ ] Ensure a copy on the Github repository for future coders. 
+* [X] Ensure a copy on the Github repository for future coders. 
