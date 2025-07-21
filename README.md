@@ -1,5 +1,7 @@
 # GradeMate
-This is a program with the goal to help students track their grades and calculate their overall class average. Users can enter up to ten desired assignments per class, and the program will display the final numeric average and the corresponding letter grade.
+This is a program to help students track their grades and calculate their overall class average. Users can enter up to the desired number of assignments per class, and the program will display the final numeric average and the corresponding letter grade.
+
+
 
 # Features 
 
